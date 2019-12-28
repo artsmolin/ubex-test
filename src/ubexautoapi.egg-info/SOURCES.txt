@@ -1,0 +1,8 @@
+README.txt
+setup.py
+ubex_auto_api/__init__.py
+ubex_auto_api/core.py
+ubexautoapi.egg-info/PKG-INFO
+ubexautoapi.egg-info/SOURCES.txt
+ubexautoapi.egg-info/dependency_links.txt
+ubexautoapi.egg-info/top_level.txt
