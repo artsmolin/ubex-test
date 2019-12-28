@@ -1,16 +1,17 @@
 # Автоматическое создание REST API для всех моделей DRF проекта.
 
 
-Подразумевается, что в пакете приложении уже установлены:
-Django==3.0.1
-djangorestframework==3.11.0
-django-filter==2.2.0
+**Подразумевается, что в пакете приложении уже установлены:**
+- Django==3.0.1
+- djangorestframework==3.11.0
+- django-filter==2.2.0
 
 
 Установка:
 1. Скачать проект
 2. Выполнить pip install /путь/до/скачанного/проекта/distr/ubexautoapi-0.1.tar.gz
 3. Импортировать в главный файл urls.py
+```
 from ubex_auto_api.core import create_auto_router
 
 *** какой-то код ***
@@ -19,6 +20,7 @@ auto_router = create_auto_router()
 urlpatterns.append(
     url('auto_api/', include(auto_router.urls)),
 )
+```
 4. Готово
 
 
