@@ -9,7 +9,7 @@
 
 ## Установка:
 1. Скачать проект
-2. Выполнить pip install /путь/до/скачанного/проекта/distr/ubexautoapi-0.1.tar.gz
+2. Выполнить pip install /путь/до/скачанного/проекта/src/distr/ubexautoapi-0.1.tar.gz
 3. Импортировать в главный файл urls.py
 ```
 from ubex_auto_api.core import create_auto_router
